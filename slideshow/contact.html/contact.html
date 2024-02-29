@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   <div class="container">
+      <h1>CONTACT FORM</h1>
+       <div class="card">
+        <div class="card-body">
+           <center> <form name="myForm" action="/action_page.php" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label>First name:</label>
+                    <input type="text"name="fname" ><br>
+                    <label>Last name:</label>
+                    <input type="text" name="lname" ><br>
+                
+                    <label>Email:</label>&nbsp;
+                    <input type="text" name="email" ><br>
+                    <label>Contact no:</label>
+                    <input type="number" name="phone"><br>
+                    <label>Message:</label>&nbsp;&nbsp;&nbsp;
+                    <textarea type="text" name="message"></textarea>
+                   <input id="submit" type="submit" value="submit">
+                </div>
+            </form> </center>
+        </div>
+       </div>
+        <script src="contact.js"></script>
+</body>
+</html>

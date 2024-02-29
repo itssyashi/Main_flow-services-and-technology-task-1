@@ -1,0 +1,47 @@
+img{
+    height:200px;
+    width:300px;
+}
+caption{
+    margin-top: 20%;
+}
+.container
+{   align-items: flex;
+    position:relative;
+    width:100%;
+}
+.slide
+{   margin-left: 30%;
+    position:absolute;
+    width:100%;
+    display:none;
+}
+.arrow
+{  background-color: orange;
+    color:black;
+    position: absolute;
+    cursor:pointer;
+    top:80%;
+    left:0%;
+   padding:8px 15px;
+   border-radius: 30%;
+   font-weight: bold;
+ 
+   
+}
+
+.prev{
+    
+    
+    left:380px;
+    margin-top: 160px;
+
+}
+
+
+.next
+{   
+    left:460px;
+    margin-top: 160px;
+
+}

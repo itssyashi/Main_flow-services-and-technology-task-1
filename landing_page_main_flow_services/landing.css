@@ -1,0 +1,111 @@
+.landingpage
+{
+    margin-left:100px;
+   
+  
+}
+body{
+    margin: 0px;
+    padding:0px;
+}
+.navbar{
+  background-color: black;
+width:viewport;
+  color:white;
+}
+#recipe
+{
+   display: block;
+    padding-left: 5%;
+}
+
+#recipe:hover{
+    background-color: green;
+}
+#bar
+{    font-size: 20px;
+    margin-left: 60%;
+    padding-bottom: 2%;
+}
+
+.vl
+{
+    border-left:6px solid green;
+    height:100px;
+}
+.desc
+{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pasta
+{
+ font-size: 20px;
+ font-family:Georgia, 'Times New Roman', Times, serif
+}
+.btn
+{
+    border-radius: 50px;
+    height:40px;
+    width:150px;
+    background-color: green;
+    color:white;
+    border:transparent;
+    transition: width 2s;
+    
+}
+.btn:active
+{
+    background-color:purple;
+}
+.btn:hover
+{
+  background-color: orangered;
+  width:100px;
+}
+.btnn
+{
+    border-radius: 50px;
+    height:40px;
+    width:150px;
+    color:green;
+    border:transparent;
+    transition:width 2s;
+   
+}
+
+
+img
+{
+    margin-left:420px;
+    height:auto;
+    width:400px;
+   transition: width 2s;
+    max-width:50%;
+}
+.container
+{
+  height:30px;
+   
+}
+a:hover
+{
+    color:yellow;
+}
+a:active{
+    color:rgb(207, 17, 207);
+}
+a{
+    color:white;
+}
+#footer
+{
+    color:rgb(4, 1, 10);
+}
+#footer:hover{
+    color:black;
+}
+footer{
+    padding:1%;
+    color:white;
+    background-color: rgb(111, 160, 111);
+}

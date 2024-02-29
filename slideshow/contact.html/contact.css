@@ -1,0 +1,57 @@
+.container
+{  padding:16px;
+   text-align: center;
+
+}
+
+form{
+   border-radius: 20px;
+  padding:50px;
+    border: solid black 1px;
+  
+}
+.card
+{ max-width:400px;
+  height:auto;
+ margin-left:30%;
+ width:auto;
+ margin-top: 5%;
+}
+input{
+   margin:1%; 
+   border:1px solid;
+   box-sizing:border-box;
+}
+textarea{
+   margin:1%;
+   height:4%;
+   border:1px solid;
+   box-sizing:border-box;
+   
+}
+@media only screen and (max-width:767px){
+   input[type="text"]{
+   width:100%;
+   margin-bottom: 10px;
+}}
+@media only screen and (max-width:767px){
+   input[type="number"]{
+   width:100%;
+   margin-bottom: 10px;
+}}
+@media only screen and (max-width:767px){
+   textarea[type="text"]{
+   width:100%;
+   margin-bottom: 10px;
+}}
+
+#submit
+{
+   background-color: green;
+   border:transparent;
+   padding:10px;
+   border-radius: 6px;
+   color:white;
+   margin-top: 10px;
+   width:50%;
+}
